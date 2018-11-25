@@ -9,10 +9,10 @@ const config = {
   storageBucket: "tco-project-faf28.appspot.com",
   messagingSenderId: "464825677637"
 };
-  if (!firebase.apps.length) {
-    firebase.initializeApp(config);
-  }
-  const auth = firebase.auth();
-  export {
-    auth,
-  };
+if (!firebase.apps.length) {
+  firebase.initializeApp(config);
+}
+const auth = firebase.auth();
+export {
+  auth,
+};
